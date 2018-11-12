@@ -1,0 +1,13 @@
+{
+  "name": "purescript-jsdom-global",
+  "version": "0.0.1",
+  "authors": [
+    "Derek Mueller"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jsdom": "^13.0.0",
+    "jsdom-global": "^3.0.2"
+  },
+  "devDependencies": {}
+}
