@@ -1,5 +1,5 @@
 {
-  "name": "purescript-jsdom",
+  "name": "purescript-jsdom-global",
   "ignore": [
     "**/.*",
     "node_modules",
