@@ -4,7 +4,7 @@ module JsdomGlobal
 import Effect (Effect)
 import Prelude
 
-foreign import jsdomGlobalImpl :: Effect Unit
+foreign import jsdomGlobalImpl :: Effect (Effect Unit)
 
-jsdomGlobal :: Effect Unit
+jsdomGlobal :: Effect (Effect Unit)
 jsdomGlobal = jsdomGlobalImpl

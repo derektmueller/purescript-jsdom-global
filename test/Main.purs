@@ -4,6 +4,10 @@ import Prelude
 import Effect (Effect)
 import Effect.Console (log)
 
+import JsdomGlobal (jsdomGlobal)
+
 main :: Effect Unit
 main = do
-  log "You should add some tests."
+  cleanup <- jsdomGlobal
+  cleanup
+  log "initialized jsdom and cleanup without error"
